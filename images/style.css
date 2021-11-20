@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    font-size: 12px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.outerclass{
+    background: #1D1D1F;
+    height: 50px;
+}
+.container{
+    width:968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top {
+margin:0px;
+padding: 0px;
+}
+.top li{
+    list-style: none;
+    display: inline-block;
+    color:#F5F5F7 ;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+ .apple {
+    background-size: 14px 44px;
+    background-repeat: no-repeat;
+    background-image: url(images/logo.svg);
+    background-position: center center;
+    display: block;
+    width: 50px;
+    opacity: 0.8;
+}
+.apple:hover{
+    opacity: 1;
+}
+.apple span{
+    font-size: 0px;
+}
+
+.search {
+    background-size: 14px 82px;
+    background-repeat: no-repeat;
+    background-image: url(images/search.svg);
+    background-position: center center;
+    display: block;
+    width: 50px;
+    opacity: 0.8;
+    background-position: 0px -12px;
+}
+.search span{
+    font-size: 0px;
+}
+.cart {
+    background-size: 15px 41px;
+    background-repeat: no-repeat;
+    background-image: url(images/cart.svg);
+    background-position: center center;
+    display: block;
+    width: 40px;
+    opacity: 0.8;
+    background-position: 0px -12px;
+}
+.cart span{
+    font-size: 0px;
+}
+.para {
+    align-items: center;
+    font-size: 14px;
+    display:inline-block;
+    padding:12px 0px;
+    width: 100%;
+
+    
+    text-align: center;
+}
+.iphone{
+    color:black;
+    text-align: center;
+    background-color: #fbfbfd;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.image{
+   width: auto;
+   height: 500px;
+
+}
+.space{
+    padding-left: 50px;
+    text-decoration: none;
+}
+.sp{
+    text-decoration: none;
+
+}
+.second h1 h2 a{ 
+    margin: 0;
+    padding: 0 0 0;
+}
+.second{
+    /* padding-top: 10px; */
+    
+
+    height: 500px;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color:#F5F5F7;
+
+
+}
+.b{
+    padding-top: 0px;
+    color:pink;
+}
+.second a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: royalblue;
+    
+}
+.second a:hover{
+    text-decoration: underline;
+}
+.third{
+    padding-top: 0px;
+
+    
+    background-image: url("images/hero_macbookpro__eatonjfwvuc2_large.jpg");
+    min-height: 674px;
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    padding-bottom: 0;
+}
+.third a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: royalblue;
+}
